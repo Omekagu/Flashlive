@@ -9,19 +9,24 @@
 
 html {
   font-size: 93.7%;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   box-sizing: border-box;
-  background-color: #fff;
+  background-color: #c8c8c8;
 }
 
 .bigtext {
   font-size: 4rem;
 }
 
+.mediumtext {
+  font-size: 2rem;
+}
+
 .smalltext {
+  color: #6c6969;
   font-size: 1rem;
 }
 
@@ -86,13 +91,11 @@ body {
   margin-left: 3rem;
   margin-right: 10rem;
 }
-.header__text {
-  color: #6c6969;
-}
 .header__text span {
   color: rgba(11, 87, 219, 0.8784313725);
 }
 .header__download {
+  background-size: cover;
   margin-top: 3rem;
 }
 .header__download-goggle {
@@ -110,6 +113,7 @@ body {
   position: absolute;
 }
 .header__img {
+  background-size: cover;
   background: none;
   position: absolute;
   margin-left: 19rem;
@@ -124,5 +128,72 @@ body {
   transform: translate(-10.5rem);
 }
 .header__img-3 {
+  transform: translateY(1rem);
+}
+
+.feature {
+  padding-top: 3rem;
+  background-color: #fff;
+  height: 120vh;
+}
+.feature__heading {
+  color: #130d0d;
+  text-align: center;
+  margin: 0 24rem;
+}
+.feature__col {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.feature__col-one {
+  width: 40vw;
+  position: relative;
+}
+.feature__col-two {
+  transform: translateY(19rem);
+  width: 40vw;
+}
+.feature__col-one-2 {
+  width: 40vw;
+  transform: translateY(19rem);
+}
+.feature__col-two-2 {
+  position: relative;
+  width: 40vw;
+}
+.feature__img {
+  background-size: cover;
+  width: 70%;
+  position: absolute;
+}
+.feature__img--1 {
+  width: 100%;
+}
+.feature__img--2 {
+  width: 95%;
+  top: 1rem;
+  left: 0.9rem;
+}
+.feature__img--3 {
+  transform: translateX(5rem);
+}
+.feature__img--4 {
+  content: "";
+  width: 100%;
+  margin-top: 45rem;
+  z-index: -1;
+  transform: scale(0.6);
+  box-shadow: 0px 0px 9px 1px #130d0d;
+}
+.feature__content {
+  padding: 5em;
+  text-transform: capitalize;
+}
+.feature__mdtext {
+  color: blue;
+}
+.feature__smtext {
   transform: translateY(1rem);
 }/*# sourceMappingURL=main.css.map */

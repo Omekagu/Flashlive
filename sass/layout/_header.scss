@@ -10,12 +10,12 @@
     margin-right: 10rem;
   }
   &__text {
-    color: $color-primary-text;
     span {
       color: $color-primary;
     }
   }
   &__download {
+    background-size: cover;
     margin-top: 3rem;
   }
   &__download-goggle {
@@ -34,6 +34,7 @@
     position: absolute;
   }
   &__img {
+    background-size: cover;
     background: none;
     position: absolute;
     margin-left: 19rem;
