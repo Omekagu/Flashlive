@@ -1,0 +1,50 @@
+.navbar {
+  @include flex;
+  margin-top: 2rem;
+  margin-right: 30rem;
+
+  &__logo {
+    @include flex;
+    margin-right: 20rem;
+    background-image: linear-gradient(
+        to bottom,
+        rgba($color-primary, 0.8),
+        rgba($color-primary-light, 0.7)
+      ),
+      url(/img/Rectangle\ 11.png);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1.2rem;
+  }
+
+  &__logo-img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+    align-items: center;
+  }
+
+  &__items {
+    @include flex;
+  }
+
+  &__list {
+    @include flex;
+    text-transform: capitalize;
+    gap: 1.5rem;
+    list-style: none;
+  }
+
+  &__link {
+    color: $color-primary-text;
+    text-decoration: none;
+
+    &:hover {
+      border-bottom: 2px solid $color-primary;
+      cursor: pointer;
+    }
+  }
+  &__link--active {
+    color: $color-primary;
+  }
+}

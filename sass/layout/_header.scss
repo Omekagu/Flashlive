@@ -1,0 +1,53 @@
+.header {
+  @include flex;
+  margin-top: 0;
+  height: 100vh;
+  overflow: hidden;
+
+  &__first-col {
+    width: 40%;
+    margin-left: 3rem;
+    margin-right: 10rem;
+  }
+  &__text {
+    color: $color-primary-text;
+    span {
+      color: $color-primary;
+    }
+  }
+  &__download {
+    margin-top: 3rem;
+  }
+  &__download-goggle {
+    margin-right: 3rem;
+  }
+
+  &__second-col {
+    width: 40%;
+    position: relative;
+    margin-bottom: 20rem;
+  }
+  &__background {
+    margin-top: -1.5rem;
+    margin-left: 3rem;
+    width: 92%;
+    position: absolute;
+  }
+  &__img {
+    background: none;
+    position: absolute;
+    margin-left: 19rem;
+    width: 30%;
+  }
+  &__img-1 {
+    width: 35%;
+    transform: translateX(6rem);
+  }
+  &__img-2 {
+    width: 42%;
+    transform: translate(-10.5rem);
+  }
+  &__img-3 {
+    transform: translateY(1rem);
+  }
+}

@@ -1,0 +1,128 @@
+*,
+*::before,
+*::before {
+  content: "";
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 93.7%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.bigtext {
+  font-size: 4rem;
+}
+
+.smalltext {
+  font-size: 1rem;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-right: 30rem;
+}
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20rem;
+  background-image: linear-gradient(to bottom, rgba(11, 87, 219, 0.8), rgba(255, 255, 255, 0.7)), url(/img/Rectangle\ 11.png);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1.2rem;
+}
+.navbar__logo-img {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.5rem;
+  align-items: center;
+}
+.navbar__items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: capitalize;
+  gap: 1.5rem;
+  list-style: none;
+}
+.navbar__link {
+  color: #6c6969;
+  text-decoration: none;
+}
+.navbar__link:hover {
+  border-bottom: 2px solid rgba(11, 87, 219, 0.8784313725);
+  cursor: pointer;
+}
+.navbar__link--active {
+  color: rgba(11, 87, 219, 0.8784313725);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+.header__first-col {
+  width: 40%;
+  margin-left: 3rem;
+  margin-right: 10rem;
+}
+.header__text {
+  color: #6c6969;
+}
+.header__text span {
+  color: rgba(11, 87, 219, 0.8784313725);
+}
+.header__download {
+  margin-top: 3rem;
+}
+.header__download-goggle {
+  margin-right: 3rem;
+}
+.header__second-col {
+  width: 40%;
+  position: relative;
+  margin-bottom: 20rem;
+}
+.header__background {
+  margin-top: -1.5rem;
+  margin-left: 3rem;
+  width: 92%;
+  position: absolute;
+}
+.header__img {
+  background: none;
+  position: absolute;
+  margin-left: 19rem;
+  width: 30%;
+}
+.header__img-1 {
+  width: 35%;
+  transform: translateX(6rem);
+}
+.header__img-2 {
+  width: 42%;
+  transform: translate(-10.5rem);
+}
+.header__img-3 {
+  transform: translateY(1rem);
+}/*# sourceMappingURL=main.css.map */
