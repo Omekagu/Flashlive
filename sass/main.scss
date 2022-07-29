@@ -1,9 +1,8 @@
 @import './abstract/variables';
-@import './abstract/mixins.scss';
+@import './abstract/mixins';
+@import './abstract/typography';
 
 @import './base/base';
-
-@import './abstract/typography';
 
 @import './layout/navbar';
 @import './layout/header';

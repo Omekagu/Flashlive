@@ -1,3 +1,16 @@
+.bigtext {
+  font-size: 4rem;
+}
+
+.mediumtext {
+  font-size: 2rem;
+}
+
+.smalltext {
+  color: #6c6969;
+  font-size: 1rem;
+}
+
 *,
 *::before,
 *::before {
@@ -15,19 +28,6 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   box-sizing: border-box;
   background-color: #c8c8c8;
-}
-
-.bigtext {
-  font-size: 4rem;
-}
-
-.mediumtext {
-  font-size: 2rem;
-}
-
-.smalltext {
-  color: #6c6969;
-  font-size: 1rem;
 }
 
 .navbar {
