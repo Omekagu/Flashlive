@@ -1,9 +1,10 @@
 .logo {
   @include flex;
-  margin-right: 20rem;
+  margin-right: -10rem;
   width: 3rem;
   height: 3rem;
   border-radius: 1.2rem;
+  transform: translateX(-25rem);
 
   &-img {
     background: linear-gradient(180deg, #1d4ed8 0%, #1ee4d9 100%);

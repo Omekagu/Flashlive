@@ -1,13 +1,16 @@
 .navbar {
+  overflow: hidden;
+  // width: 1440px;
+  height: 113px;
+  padding-right: 10rem;
+  background: #f8f8f8;
   @include flex;
-  margin-top: 2rem;
-  margin-right: 30rem;
-
   &__items {
     @include flex;
   }
 
   &__list {
+    transform: translateX(-25rem);
     @include flex;
     text-transform: capitalize;
     gap: 1.5rem;
@@ -15,8 +18,18 @@
   }
 
   &__link {
-    color: $color-primary-text;
+    font-family: 'Airbnb Cereal App';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.5px;
+    color: #656589;
     text-decoration: none;
+
+    &:active {
+      color: $color-primary;
+    }
 
     &:hover {
       border-bottom: 2px solid $color-primary;

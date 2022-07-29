@@ -1,0 +1,42 @@
+.rectangle {
+  @include flex;
+  margin: 10rem 5rem;
+  width: 1240px;
+  height: 422px;
+  background: #3167ff;
+  border-radius: 23px;
+  overflow: hidden;
+
+  //   &__img-box {
+  //   }
+  &__img {
+    width: 176.32px;
+    height: 412.58px;
+    position: relative;
+  }
+  &__image--1 {
+    transform: translateY(18rem);
+  }
+  //   &__image--2 {
+  //   }
+  &__image--3 {
+    transform: translateY(20rem);
+  }
+  &__image--4 {
+    transform: translateX(12rem);
+  }
+  &__text-box {
+    width: 40rem;
+  }
+  &__heading {
+    text-transform: capitalize;
+    color: $color-primary-light;
+    width: 30rem;
+    margin-bottom: 3rem;
+  }
+  &__heading--img {
+    width: 160px;
+    height: 46px;
+    margin-right: 2rem;
+  }
+}

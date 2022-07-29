@@ -1,32 +1,58 @@
 .feature {
   padding-top: 3rem;
   background-color: $color-primary-light;
-  height: 130vh;
+  height: 140vh;
   overflow: hidden;
 
   &__heading {
-    color: #130d0d;
+    font-family: 'Airbnb Cereal App';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 112%;
     text-align: center;
+    letter-spacing: -1px;
+    color: #06060f;
     margin: 0 24rem;
   }
   &__col {
     @include flex;
     margin-top: 3rem;
 
-    &-one {
+    &-explore {
       width: 40vw;
       position: relative;
       transform: translateX(-5rem);
     }
-    &-two {
-      transform: translate(-2rem, 19rem);
+    &-explore2 {
+      transform: translate(-8rem, 13rem);
       width: 35vw;
     }
-    &-one-2 {
+
+    &-job {
       width: 40vw;
       transform: translate(-7rem, 19rem);
     }
-    &-two-2 {
+    &-job2 {
+      position: relative;
+      width: 40vw;
+      transform: translateX(4rem);
+    }
+
+    &-ride {
+      width: 40vw;
+      position: relative;
+      transform: translateX(-5rem);
+    }
+    &-ride2 {
+      transform: translate(-8rem, 13rem);
+      width: 35vw;
+    }
+    &-inbox {
+      width: 40vw;
+      transform: translate(-7rem, 19rem);
+    }
+    &-inbox2 {
       position: relative;
       width: 40vw;
       transform: translateX(4rem);
@@ -35,16 +61,19 @@
 
   &__img {
     background-size: cover;
-    width: 70%;
+    width: 270.91px;
+    height: 558.95px;
     position: absolute;
 
-    &--1 {
-      width: 100%;
-    }
+    // &--1 {
+    //   width: 100%;
+    // }
     &--2 {
       width: 95%;
       top: 1rem;
       left: 0.9rem;
+      background: #e2e9ff;
+      border: 2px dashed #5d87ff;
     }
     &--3 {
       transform: translateX(3rem);
@@ -55,7 +84,7 @@
       width: 90%;
       margin-top: 42rem;
       z-index: -1;
-      transform: scale(0.6);
+      transform: scale(0.6) translateX(5rem);
       box-shadow: 0px 0px 9px 1px #130d0d;
     }
   }
@@ -67,6 +96,23 @@
     color: blue;
   }
   &__smtext {
+    width: 454px;
+    height: 102px;
+    left: 0px;
+    top: 257.77px;
+
+    font-family: 'Airbnb Cereal App';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 147.5%;
+    /* or 27px */
+
+    letter-spacing: -0.611804px;
+
+    /* Color/Black/500 */
+
+    color: #656589;
     transform: translateY(1rem);
   }
 }

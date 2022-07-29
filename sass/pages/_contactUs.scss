@@ -1,0 +1,87 @@
+.contact {
+  overflow: hidden;
+  @include flex;
+  margin: 0 1rem;
+  width: 1320px;
+  height: 646px;
+  left: 0px;
+  top: 0px;
+
+  //   background: #3167ff;
+  border-radius: 12px;
+
+  &--img {
+    width: 224.99px;
+    height: 487.18px;
+
+    &-1 {
+      transform: translateX(3rem);
+    }
+    &-2 {
+      transform: translate(5rem, 19rem);
+    }
+    &-3 {
+      transform: rotate(90deg) translate(-5rem, 5rem);
+    }
+  }
+  &__col-1 {
+    background: #3167ff;
+    width: 670px;
+  }
+  &__col-2 {
+    width: 670px;
+    background-color: #fff;
+  }
+  &__container {
+    justify-content: center;
+    width: 526px;
+    height: 516px;
+  }
+  &__heading {
+    width: 161px;
+    height: 41px;
+    left: 773px;
+    top: 48px;
+    font-family: 'Airbnb Cereal App';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 128%;
+    letter-spacing: -1px;
+    color: #000000;
+  }
+  &__label {
+    width: 88px;
+    height: 23px;
+    left: 773px;
+    top: 146px;
+    // transform: translate(10rem, -4rem);
+    font-family: 'Airbnb Cereal App';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.5px;
+    color: #000000;
+  }
+  &__input {
+    width: 226px;
+    height: 0px;
+    left: 773px;
+    top: 210px;
+
+    border: 1px solid rgba(0, 0, 0, 0.21);
+  }
+  &__label--msg {
+  }
+  &__input--msg {
+    width: 526px;
+    height: 0px;
+    left: 773px;
+    top: 465px;
+
+    border: 1px solid rgba(0, 0, 0, 0.21);
+  }
+  &__btn {
+  }
+}
