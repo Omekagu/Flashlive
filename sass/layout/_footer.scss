@@ -1,0 +1,42 @@
+.footer {
+  @include flex;
+  margin: 2rem 15rem 0 15rem;
+
+  &__logo {
+    @include flex;
+    gap: 0.5rem;
+    align-self: flex-end;
+    align-items: center;
+    flex-direction: column;
+    transform: translateX(-4rem);
+
+    &-text {
+      font-family: 'Airbnb Cereal App';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 128%;
+      letter-spacing: -1px;
+      color: #1d5ad8;
+    }
+  }
+  &__center {
+    font-family: 'Airbnb Cereal App';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+    align-self: flex-end;
+    transform: translateY(4rem);
+  }
+  &__right {
+    transform: translate(10rem, 0);
+  }
+  &__icon {
+    padding: 0.4rem;
+    border: 2px solid #ffffff;
+    background: #3167ff;
+    border-radius: 40px;
+  }
+}

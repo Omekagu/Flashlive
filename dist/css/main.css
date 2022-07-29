@@ -27,7 +27,38 @@ html {
 body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   box-sizing: border-box;
-  background-color: #c8c8c8;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1.2rem;
+}
+.logo-img {
+  background: linear-gradient(180deg, #1d4ed8 0%, #1ee4d9 100%);
+  opacity: 0.7;
+  filter: blur(0.1px);
+  border-radius: 41.4357px;
+  width: 3rem;
+  height: 3rem;
+  padding: 0.4rem;
+  margin-right: 0.5rem;
+  align-items: center;
+}
+.logo__img--footer {
+  background: linear-gradient(180deg, #1d4ed8 0%, #1ee4d9 100%);
+  opacity: 0.7;
+  filter: blur(0.1px);
+  border-radius: 41.4357px;
+  width: 3.5rem;
+  height: 4rem;
+  padding: 0.6rem;
+  margin-right: 0.5rem;
+  align-items: center;
 }
 
 .navbar {
@@ -36,22 +67,6 @@ body {
   justify-content: space-between;
   margin-top: 2rem;
   margin-right: 30rem;
-}
-.navbar__logo {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-right: 20rem;
-  background-image: linear-gradient(to bottom, rgba(11, 87, 219, 0.8), rgba(255, 255, 255, 0.7)), url(/img/Rectangle\ 11.png);
-  width: 3rem;
-  height: 3rem;
-  border-radius: 1.2rem;
-}
-.navbar__logo-img {
-  width: 2rem;
-  height: 2rem;
-  margin-right: 0.5rem;
-  align-items: center;
 }
 .navbar__items {
   display: flex;
@@ -134,7 +149,8 @@ body {
 .feature {
   padding-top: 3rem;
   background-color: #fff;
-  height: 120vh;
+  height: 130vh;
+  overflow: hidden;
 }
 .feature__heading {
   color: #130d0d;
@@ -150,18 +166,20 @@ body {
 .feature__col-one {
   width: 40vw;
   position: relative;
+  transform: translateX(-5rem);
 }
 .feature__col-two {
-  transform: translateY(19rem);
-  width: 40vw;
+  transform: translate(-2rem, 19rem);
+  width: 35vw;
 }
 .feature__col-one-2 {
   width: 40vw;
-  transform: translateY(19rem);
+  transform: translate(-7rem, 19rem);
 }
 .feature__col-two-2 {
   position: relative;
   width: 40vw;
+  transform: translateX(4rem);
 }
 .feature__img {
   background-size: cover;
@@ -177,12 +195,12 @@ body {
   left: 0.9rem;
 }
 .feature__img--3 {
-  transform: translateX(5rem);
+  transform: translateX(3rem);
 }
 .feature__img--4 {
   content: "";
-  width: 100%;
-  margin-top: 45rem;
+  width: 90%;
+  margin-top: 42rem;
   z-index: -1;
   transform: scale(0.6);
   box-shadow: 0px 0px 9px 1px #130d0d;
@@ -196,4 +214,49 @@ body {
 }
 .feature__smtext {
   transform: translateY(1rem);
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 15rem 0 15rem;
+}
+.footer__logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  align-self: flex-end;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-4rem);
+}
+.footer__logo-text {
+  font-family: "Airbnb Cereal App";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 128%;
+  letter-spacing: -1px;
+  color: #1d5ad8;
+}
+.footer__center {
+  font-family: "Airbnb Cereal App";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+  align-self: flex-end;
+  transform: translateY(4rem);
+}
+.footer__right {
+  transform: translate(10rem, 0);
+}
+.footer__icon {
+  padding: 0.4rem;
+  border: 2px solid #ffffff;
+  background: #3167ff;
+  border-radius: 40px;
 }/*# sourceMappingURL=main.css.map */
