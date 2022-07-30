@@ -29,6 +29,7 @@
 
     &:active {
       color: $color-primary;
+      text-decoration: none;
     }
 
     &:hover {
@@ -38,5 +39,7 @@
   }
   &__link--active {
     color: $color-primary;
+    // color: $color-primary;
+    text-decoration: none;
   }
 }

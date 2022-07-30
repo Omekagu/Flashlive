@@ -16,9 +16,7 @@
       </div>
       <ul class="navbar__items">
         <li class="navbar__list">
-          <a href="index.html" class="navbar__link navbar__link--active"
-            >Home</a
-          >
+          <a href="index.html" class="navbar__link navbar__link">Home</a>
         </li>
         <li class="navbar__list">
           <a href="#" class="navbar__link">Features</a>
@@ -30,7 +28,7 @@
           <a href="about.html" class="navbar__link">About Us</a>
         </li>
         <li class="navbar__list">
-          <a href="contact us.html" class="navbar__link">contact</a>
+          <a href="contact us.html" class="navbar__link--active">contact</a>
         </li>
       </ul>
     </nav>
@@ -57,39 +55,57 @@
       <!-- contact col 2 -->
       <div class="contact__col-2">
         <div class="contact__container">
-          <h3 class="contact__heading mediumtext">contact us</h3>
-          <label for="name" class="contact__label">first name</label>
-          <input
-            type="text"
-            class="contact__input"
-            placeholder="Enter Your First Name"
-          />
-          <label for="name" class="contact__label">Last name</label>
-          <input
-            type="text"
-            class="contact__input"
-            placeholder="Enter Your Last Name"
-          />
-          <label for="name" class="contact__label">Email</label>
-          <input
-            type="text"
-            class="contact__input"
-            placeholder="Enter Your Email"
-          />
-          <label for="name" class="contact__label">Phone Number</label>
-          <input
-            type="text"
-            class="contact__input"
-            placeholder="Enter Your Phone Number"
-          />
-          <label for="name" class="contact__label--msg">message</label>
-          <input
-            type="text"
-            class="contact__input--msg"
-            placeholder="Enter Your maessage"
-          />
+          <h3 class="contact__heading">contact us</h3>
+          <form action="#" class="contact__form">
+            <div class="firstname">
+              <label for="name" class="contact__label">first name</label>
+              <input
+                type="text"
+                class="contact__input"
+                placeholder="Enter Your First Name"
+              />
+            </div>
 
-          <button class="contact__btn">submit</button>
+            <div class="lastname">
+              <label for="name" class="contact__label">Last name</label>
+              <input
+                type="text"
+                class="contact__input"
+                placeholder="Enter Your Last Name"
+              />
+            </div>
+
+            <div class="lastname">
+              <label for="name" class="contact__label">Email</label>
+              <input
+                type="text"
+                class="contact__input"
+                placeholder="Enter Your Email"
+              />
+            </div>
+
+            <div class="lastname">
+              <label for="name" class="contact__label">Phone Number</label>
+              <input
+                type="text"
+                class="contact__input"
+                placeholder="Enter Your Phone Number"
+              />
+            </div>
+
+            <div class="lastname">
+              <label for="name" class="contact__label--msg">message</label>
+              <input
+                type="text"
+                class="contact__input--msg"
+                placeholder="Enter Your maessage"
+              />
+            </div>
+
+            <button class="contact__btn">
+              <p class="contact__btn--text">submit</p>
+            </button>
+          </form>
         </div>
       </div>
     </div>

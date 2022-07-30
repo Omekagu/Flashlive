@@ -31,9 +31,10 @@
   &__col-2 {
     width: 670px;
     background-color: #fff;
+    padding-left: 6rem;
   }
   &__container {
-    justify-content: center;
+    // justify-content: center;
     width: 526px;
     height: 516px;
   }
@@ -49,39 +50,6 @@
     line-height: 128%;
     letter-spacing: -1px;
     color: #000000;
-  }
-  &__label {
-    width: 88px;
-    height: 23px;
-    left: 773px;
-    top: 146px;
-    // transform: translate(10rem, -4rem);
-    font-family: 'Airbnb Cereal App';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 22px;
-    letter-spacing: -0.5px;
-    color: #000000;
-  }
-  &__input {
-    width: 226px;
-    height: 0px;
-    left: 773px;
-    top: 210px;
-
-    border: 1px solid rgba(0, 0, 0, 0.21);
-  }
-  &__label--msg {
-  }
-  &__input--msg {
-    width: 526px;
-    height: 0px;
-    left: 773px;
-    top: 465px;
-
-    border: 1px solid rgba(0, 0, 0, 0.21);
-  }
-  &__btn {
+    padding-bottom: 6rem;
   }
 }
