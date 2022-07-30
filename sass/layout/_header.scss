@@ -1,12 +1,11 @@
 .header {
   overflow: hidden;
-  // width: 1440px;
+  width: 1346px;
   height: 1024px;
   left: 0px;
   top: -2px;
   background: #f8f8f8;
   @include flex;
-  overflow: hidden;
 
   &__first-col {
     width: 40%;
@@ -58,25 +57,10 @@
     transform: translate(-5rem, -20rem);
   }
   &__background {
-    width: 700.04px;
-    height: 600.27px;
+    width: 649.04px;
+    height: 618.27px;
+    left: 0px;
+    top: 0px;
     position: absolute;
-  }
-  &__img {
-    background-size: cover;
-    background: none;
-    position: absolute;
-    margin-left: 19rem;
-    width: 237.02px;
-    height: 478.27px;
-  }
-  &__img-1 {
-    transform: translateX(7rem);
-  }
-  &__img-2 {
-    transform: translate(-10.5rem);
-  }
-  &__img-3 {
-    transform: translateY(1rem);
   }
 }

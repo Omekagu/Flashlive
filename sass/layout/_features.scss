@@ -1,7 +1,8 @@
 .feature {
   padding-top: 3rem;
   background-color: $color-primary-light;
-  height: 140vh;
+  height: 150vh;
+  width: 1328px;
   overflow: hidden;
 
   &__heading {
@@ -65,27 +66,19 @@
     height: 558.95px;
     position: absolute;
 
-    // &--1 {
-    //   width: 100%;
-    // }
-    &--2 {
-      width: 95%;
-      top: 1rem;
-      left: 0.9rem;
-      background: #e2e9ff;
-      border: 2px dashed #5d87ff;
+    &-background {
+      width: 470px;
+      height: 539.67px;
     }
-    &--3 {
+    &-image {
       transform: translateX(3rem);
     }
-    &--4 {
-      content: '';
-
-      width: 100%;
+    &-shadow {
       margin-top: 42rem;
-      z-index: -1;
-      transform: scale(0.6) translateX(3rem);
-      box-shadow: 0px 0px 9px 1px #130d0d;
+      // left: 1.61%;
+      // right: 1.73%;
+      top: 7.14%;
+      bottom: 16.07%;
     }
   }
   &__content {
