@@ -1,12 +1,15 @@
 .navbar {
-  overflow: hidden;
-  // width: 1440px;
-  height: 113px;
-  padding-right: 10rem;
-  background: #f8f8f8;
   @include flex;
+  background: $bg-color-primary;
+  height: 11.3rem;
+
+  &__logo {
+    margin: 4rem 29rem 4rem 0rem;
+  }
+
   &__items {
     @include flex;
+    transform: translateX(-23rem);
   }
 
   &__list {
@@ -39,7 +42,6 @@
   }
   &__link--active {
     color: $color-primary;
-    // color: $color-primary;
     text-decoration: none;
   }
 }

@@ -1,42 +1,57 @@
 .rectangle {
   @include flex;
-  margin: 10rem 5rem;
-  width: 1240px;
-  height: 422px;
-  background: #3167ff;
-  border-radius: 23px;
+  margin: 40rem 5rem 10rem 5rem;
+  width: 124rem;
+  height: 42.2rem;
+  background: $color-primary-dark;
+  border-radius: 2.3rem;
   overflow: hidden;
 
-  //   &__img-box {
-  //   }
+  &__img-box {
+    width: 62rem;
+  }
   &__img {
     width: 176.32px;
     height: 412.58px;
     position: relative;
+    transition: all 1s;
+
+    &:hover:not(:first-child) {
+      transform: scale(1.2);
+    }
   }
   &__image--1 {
-    transform: translateY(18rem);
+    transform: translate(-1rem, 26rem);
   }
-  //   &__image--2 {
-  //   }
+
   &__image--3 {
-    transform: translateY(20rem);
+    transform: translateY(30rem);
   }
   &__image--4 {
-    transform: translateX(12rem);
+    transform: translateX(18rem);
   }
   &__text-box {
-    width: 40rem;
+    width: 62rem;
+    height: 21.2rem;
   }
   &__heading {
     text-transform: capitalize;
-    color: $color-primary-light;
-    width: 30rem;
-    margin-bottom: 3rem;
+    width: 47.3rem;
+    height: 9rem;
+    left: 71rem;
+    top: 500.4rem;
+    font-family: 'Airbnb Cereal App';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 112%;
+    letter-spacing: -0.1rem;
+
+    color: $color-light;
   }
   &__heading--img {
-    width: 160px;
-    height: 46px;
-    margin-right: 2rem;
+    width: 16rem;
+    height: 4.6rem;
+    margin: 2rem 2rem 0 0;
   }
 }

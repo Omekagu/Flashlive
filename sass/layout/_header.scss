@@ -1,47 +1,44 @@
 .header {
   overflow: hidden;
-  width: 1346px;
-  height: 1024px;
-  left: 0px;
-  top: -2px;
-  background: #f8f8f8;
+  height: 90.9rem;
+  left: 0rem;
+  top: -0.2rem;
+  background: $bg-color-primary;
   @include flex;
 
   &__first-col {
-    width: 40%;
-    margin-left: 3rem;
-    margin-right: 10rem;
+    width: 60rem;
+    margin: 0rem 4rem 0rem 6.9rem;
   }
   &__text {
-    width: 516px;
-    height: 240px;
-    left: 100px;
-    top: 277px;
+    width: 51.6rem;
+    height: 24rem;
+    left: 10rem;
+    top: 27.7rem;
     font-family: 'Airbnb Cereal App';
     font-style: normal;
     font-weight: 700;
-    font-size: 56px;
+    font-size: 5.6rem;
     line-height: 108%;
-    letter-spacing: -1px;
-    color: rgba(0, 0, 0, 0.75);
+    letter-spacing: -0.1rem;
+    color: $color-dark;
 
     span {
-      color: $color-primary;
+      color: $color-primary-dark;
     }
-    &__paragraph {
-      width: 509px;
-      height: 64px;
-      left: 100px;
-      top: 534px;
-
-      font-family: 'Airbnb Cereal App';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 128%;
-      letter-spacing: -0.611804px;
-      color: #656589;
-    }
+  }
+  &__paragraph {
+    width: 50.9rem;
+    height: 6.4rem;
+    left: 10rem;
+    top: 53.4rem;
+    font-family: 'Airbnb Cereal App';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 128%;
+    letter-spacing: -0.0611804rem;
+    color: $color-primary-text;
   }
   &__download {
     width: 160px;
@@ -52,15 +49,16 @@
   }
 
   &__second-col {
-    width: 40%;
+    width: 55rem;
+    margin: 0rem 0rem 0rem 15rem;
     position: relative;
     transform: translate(-5rem, -20rem);
   }
   &__background {
-    width: 649.04px;
-    height: 618.27px;
-    left: 0px;
-    top: 0px;
+    width: 63.604rem;
+    height: 59.927rem;
+    // left: 0rem;
+    // top: 0rem;
     position: absolute;
   }
 }

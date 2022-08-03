@@ -2,13 +2,11 @@
   overflow: hidden;
   @include flex;
   margin: 0 1rem;
-  width: 1320px;
+  width: 1641px;
   height: 646px;
   left: 0px;
   top: 0px;
-
-  //   background: #3167ff;
-  border-radius: 12px;
+  border-radius: 20px;
 
   &--img {
     width: 224.99px;
@@ -25,6 +23,7 @@
     }
   }
   &__col-1 {
+    overflow: hidden;
     background: #3167ff;
     width: 670px;
   }

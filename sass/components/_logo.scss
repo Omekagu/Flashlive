@@ -1,24 +1,35 @@
 .logo {
   @include flex;
   margin-right: -10rem;
-  width: 3rem;
-  height: 3rem;
+  width: 6.101rem;
+  height: 6.461rem;
+  left: 6.8rem;
+  top: 3.5rem;
+
   border-radius: 1.2rem;
   transform: translateX(-25rem);
 
   &-img {
-    background: linear-gradient(180deg, #1d4ed8 0%, #1ee4d9 100%);
+    width: 3.879rem;
+    height: 4.629rem;
+    left: 6.8rem;
+    top: 4.032rem;
+
+    background: linear-gradient(
+      180deg,
+      $color-primary-blue 0%,
+      $color-primary-green 100%
+    );
     opacity: 0.7;
-    filter: blur(0.1px);
-    border-radius: 41.4357px;
-    width: 3rem;
-    height: 3rem;
-    padding: 0.4rem;
-    margin-right: 0.5rem;
-    align-items: center;
+    filter: blur(-13.82294px);
+    border-radius: 25.3505px;
   }
   &__img--footer {
-    background: linear-gradient(180deg, #1d4ed8 0%, #1ee4d9 100%);
+    background: linear-gradient(
+      180deg,
+      $color-primary-blue 0%,
+      $color-primary-green 100%
+    );
     opacity: 0.7;
     filter: blur(0.1px);
     border-radius: 41.4357px;

@@ -1,24 +1,26 @@
 .feature {
   padding-top: 3rem;
-  background-color: $color-primary-light;
-  height: 150vh;
-  width: 1328px;
+  background-color: $color-light;
+  height: 434.8rem;
   overflow: hidden;
 
   &__heading {
+    width: 66.9rem;
+    height: 9rem;
     font-family: 'Airbnb Cereal App';
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 4rem;
     line-height: 112%;
     text-align: center;
-    letter-spacing: -1px;
+    letter-spacing: -0.1rem;
     color: #06060f;
     margin: 0 24rem;
   }
   &__col {
     @include flex;
-    margin-top: 3rem;
+    height: 93.6rem;
+    margin: -18rem 0rem 5rem -9rem;
 
     &-explore {
       width: 40vw;
@@ -62,50 +64,48 @@
 
   &__img {
     background-size: cover;
-    width: 270.91px;
-    height: 558.95px;
+    width: 27.091rem;
+    height: 55.895rem;
     position: absolute;
+    transition: all 0.3s;
+
+    &:hover {
+      transform: translateY(1rem) scale(1.2);
+    }
 
     &-background {
-      width: 470px;
-      height: 539.67px;
+      width: 43rem;
+      height: 53.967rem;
     }
     &-image {
       transform: translateX(3rem);
     }
     &-shadow {
-      margin-top: 42rem;
-      // left: 1.61%;
-      // right: 1.73%;
+      transform: translate(-8rem, 60rem);
       top: 7.14%;
       bottom: 16.07%;
     }
   }
   &__content {
-    padding: 5em;
+    padding: 5rem;
     text-transform: capitalize;
+    transform: translateY(10rem);
   }
   &__mdtext {
-    color: blue;
+    color: $color-primary;
   }
   &__smtext {
-    width: 454px;
-    height: 102px;
-    left: 0px;
-    top: 257.77px;
-
+    width: 45.4rem;
+    height: 10.2rem;
+    left: 0rem;
+    top: 25.7rem;
     font-family: 'Airbnb Cereal App';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 147.5%;
-    /* or 27px */
-
-    letter-spacing: -0.611804px;
-
-    /* Color/Black/500 */
-
-    color: #656589;
+    letter-spacing: -0.0611804rem;
+    color: $color-primary-text;
     transform: translateY(1rem);
   }
 }
